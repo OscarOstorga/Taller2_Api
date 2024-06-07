@@ -13,5 +13,3 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 module.exports = app;
-
-//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
