@@ -1,15 +1,15 @@
 const {model, Schema} = require("mongoose")
 
 
-const personaSchema = new Schema(
+const personaSchema = new Schema(   
     {
         Dui : {type: String, required: true},
         Integrante: {type: String, required: true},
         Nombre: {type: String, required: true},
         FechaDeNacimiento: {type: String, required: true},
         GradoEscolar: {type: String, required: true},
-        Leer: Boolean,
-        Escribir: Boolean
+        LeerEscribir: {type: String, required: true},
+        Familia: {type: String, required: true}
     }
 );
 
